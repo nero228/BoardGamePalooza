@@ -1,10 +1,14 @@
 class Card(object):
     """description of class"""
-    #id, name, desc
-    def cardID():
+    def __init__(cardID, cardName, cardDescription):
+        self.cardID = cardID
+        self.cardName = cardName
+        self.cardDescription = cardDescription
+
+    def getCardID():
         print("id")
-    def cardName():
+    def getCardName():
         print("CHANCE TIME")
-    def cardDescription():
+    def getCardDescription():
         print("The FitnessGram PACER Test is a multistage aerobic capacity test that progressively gets more difficult as it continues.")
 
