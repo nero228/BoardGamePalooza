@@ -9,6 +9,7 @@ class Player(object):
         self.playerPositionID = playerPositionID
         self.OutOfJailChance = false
         self.OutOfJailCommunityChest = false
+        self.inJail = false
 
     def getPlayerId():
         print("PLAYER ID")
@@ -27,4 +28,6 @@ class Player(object):
         print("LET ME OUTTA HERE CHANCE")
     def getOutOfJailCommunityChest():
         print("LET ME OUTTA HERE CommunityChest")
+    def inJail():
+        print("LET ME OTTA HERE")
 
